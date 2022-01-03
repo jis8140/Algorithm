@@ -3,4 +3,4 @@ def heapSort(n, E = []):
     for i in range (n, 0):
         curMax = getMax(H)
         deleteMax(H)
-        E[i] = curMax        
+        E[i] = curMax
